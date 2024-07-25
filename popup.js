@@ -50,7 +50,7 @@ document.getElementById("applySettingsButton").addEventListener("click", () => {
 });
 
 document.getElementById("fontSize").addEventListener("input", (event) => {
-    document.getElementById("fontSizeValue").textContent = event.target.value + 'px';
+    document.getElementById("fontSizeValue").textContent = event.git target.value + 'px';
 });
 
 document.getElementById("settingsButton").addEventListener("click", () => {
