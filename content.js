@@ -33,10 +33,9 @@
         element.style.fontWeight = "bold"; // Use bold for headings
       }
 
-      // Ensure hyperlinks look different
       if (element.tagName === "A") {
-        element.style.color = "#00796B"; // Teal color for hyperlinks
-        element.style.textDecoration = "underline"; // Underline hyperlinks
+        element.style.color = "#00796B"; 
+        element.style.textDecoration = "underline"; 
       }
     }
   });
